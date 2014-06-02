@@ -1,6 +1,24 @@
+# Webstorm
 .idea
-platforms/android/ant-build/MobileExperiment-debug.apk
-platforms/android/ant-build/MobileExperiment.ap_
-platforms/android/ant-build/build.prop
-platforms/android/ant-build/MobileExperiment-debug-unaligned.apk
-platforms/android/CordovaLib/ant-build/build.prop
+
+# built application files
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+Android/bin/
+Android/gen/
+Android/assets/
+
+# generated files
+bin/
+gen/
+
+# Thumbnails
+._*
+
+platforms/
+plugins/

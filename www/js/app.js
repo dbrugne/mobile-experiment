@@ -37,7 +37,9 @@
   function route() {
     var hash = window.location.hash;
     if (!hash) {
-      $('body').html(new HomeView(adapter, homeTpl, employeeLiTpl).render().el);
+      var o = new HomeView(adapter, homeTpl, employeeLiTpl);
+      $('body').html(o.render().el);
+      o.findByName();
       return;
     }
     var match = hash.match(detailsURL);

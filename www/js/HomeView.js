@@ -6,10 +6,10 @@ var HomeView = function (adapter, template, listItemTemplate) {
     this.el.on('keyup', '.search-key', this.findByName);
   };
 
-  this.render = function () {
+  this.render = function() {
     this.el.html(template());
     return this;
-  }
+  };
 
   this.findByName = function() {
     adapter.findByName($('.search-key').val()).done(function(employees) {

@@ -1,0 +1,22 @@
+{
+  "name": "mobile-experiment",
+  "version": "0.0.0",
+  "description": "mobile-experiment\r =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dbrugne/mobile-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbrugne/mobile-experiment/issues"
+  },
+  "homepage": "https://github.com/dbrugne/mobile-experiment",
+  "dependencies": {
+    "node-static": "^0.7.3"
+  }
+}

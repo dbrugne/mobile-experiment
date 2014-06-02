@@ -1,1 +1,6 @@
 .idea
+platforms/android/ant-build/MobileExperiment-debug.apk
+platforms/android/ant-build/MobileExperiment.ap_
+platforms/android/ant-build/build.prop
+platforms/android/ant-build/MobileExperiment-debug-unaligned.apk
+platforms/android/CordovaLib/ant-build/build.prop
